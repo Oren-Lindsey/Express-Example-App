@@ -11,5 +11,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at https://express-example-app.s40.repl.co`)
+  console.log(`Example app listening on port ${port}`)
 })
